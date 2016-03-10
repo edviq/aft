@@ -27,19 +27,28 @@ body {
 }
 /*END OF CENTERED TEXT*/
 
-.navbar-nav > li > a {
+/*.navbar-nav > li > a {
   padding-top: 15px;
   padding-bottom: 10px;
   line-height: 20px;
+}*/
+
+
+/*.navbar-nav a.active {
+ 
+  color: green;
+}*/
+
+
+
+
+
+.intro {
+
+  margin-top: 4%;
 }
 
-/*.breadcrumb {
-  padding: 8px 15px;
-  margin-bottom: 20px;
-  list-style: none;
-  background-color: red;
-  border-radius: 4px;
-}*/
+
 
 
 
@@ -65,7 +74,7 @@ body {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: gray;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,

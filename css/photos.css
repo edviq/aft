@@ -46,6 +46,28 @@ p {
 
 }
 
+/*IMAGE POSITIONING*/
+
+.table-row {
+  display: table;
+}
+
+.table-cell-text {
+width: 44%;
+vertical-align: middle;
+display: table-cell;
+padding: 2%;
+}
+
+.table-cell-image {
+display: table-cell;
+width: 55%;
+padding: 3%;
+}
+
+/*END OF IMAGE POSITIONING*/
+
+
 /*NAVIGATION MENU*/
 
 .navbar-inverse .navbar-brand:hover,
@@ -68,7 +90,7 @@ p {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: gray;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
