@@ -1,0 +1,77 @@
+body {
+  background-color: #E0E1E3;
+}
+
+.collapse {
+  font-family: 'Arimo', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Abril+Fatface);
+
+
+.navbar-inverse {
+  background: white;
+  font-family: 'Abril Fatface', cursive;
+  color: #0000;
+  font-size: 15px;
+  letter-spacing: 0.2em;
+
+}
+
+/*CENTERED TEXT*/
+.navbar-nav {
+  margin: 8.5px 110px;
+}
+/*END OF CENTERED TEXT*/
+
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+/*.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: red;
+  border-radius: 4px;
+}*/
+
+
+
+/*NAVIGATION MENU*/
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: black;
+  background-color: #F2F3F5;
+}
+.navbar-inverse .navbar-text {
+  color: black;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: blue; 
+  background-color: #F2F3F5;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: ##F2F3F5;
+}
+
+/*END OF NAVIGATION MENU*/
