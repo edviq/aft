@@ -1,15 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Abril+Fatface);
+
 body {
-  background-color: #E0E1E3;
+  background-color: #f7f7f7;
+  font-family: 'Arimo', sans-serif;
 }
 
-.collapse {
+.collapse,
+.navbar-collapse{
   font-family: 'Arimo', sans-serif;
   font-size: 11px;
   letter-spacing: 0.2em;
   font-weight: bold;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Abril+Fatface);
+/*.collapse {
+  color: red;
+}
+
+.navbar-collapse {
+  color: green;
+}*/
 
 
 /*CENTERED TEXT*/
@@ -65,7 +75,35 @@ width: 55%;
 padding: 3%;
 }
 
+
+
+/*.red-img {
+  border: 1px solid red;
+}*/
+
+.goji {
+  border: 5px solid blue;
+}
+
+/*.goji-berry:hover {
+  height: 50%;
+  width: 20%;
+}*/
+
+
+/*.table-cell-image .img-responsive:hover{
+height:500px;
+}
+*/
 /*END OF IMAGE POSITIONING*/
+
+
+/*#img1{
+height:200px;
+}
+#img1:hover{
+height:400px;
+}*/
 
 
 /*NAVIGATION MENU*/
@@ -98,5 +136,12 @@ padding: 3%;
   color: #444;
   background-color: ##F2F3F5;
 }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+      }
+.navbar-inverse .navbar-toggle .icon-bar:hover{
+    background-color: white;
+      }
 
 /*END OF NAVIGATION MENU*/

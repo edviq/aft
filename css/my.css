@@ -1,15 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Abril+Fatface);
+
+
 body {
-  background-color: #E0E1E3;
+  background-color: #f7f7f7;
+  font-family: 'Arimo', sans-serif;
 }
 
-.collapse {
+.collapse,
+.navbar-collapse{
   font-family: 'Arimo', sans-serif;
   font-size: 11px;
   letter-spacing: 0.2em;
   font-weight: bold;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Abril+Fatface);
 
 
 .navbar-inverse {
@@ -83,4 +87,31 @@ body {
   background-color: ##F2F3F5;
 }
 
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+      }
+.navbar-inverse .navbar-toggle .icon-bar:hover{
+    background-color: white;
+      }
+
 /*END OF NAVIGATION MENU*/
+
+.footer {
+  height: 20px;
+  width: 100%;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer>p{
+  padding-left: 10px;
+  
+}
+
+
+
