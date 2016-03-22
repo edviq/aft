@@ -19,8 +19,6 @@
 
      <link href="css/photos.css" rel="stylesheet">
 
-    <!--  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'> -->
-
     <link href='https://fonts.googleapis.com/css?family=Arimo:400,700|Abril+Fatface' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -29,6 +27,13 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+ <script src="js/jquery.js"></script>
+
+<link rel="stylesheet" href="css/magnify.css">
+
+<script src="js/jquery.magnify.js"></script>
+<!-- Optional mobile plugin for smartphones -->
+<script src="js/jquery.magnify-mobile.js"></script>
 
 </head>
 
@@ -82,19 +87,15 @@
                <!--  <h1 class="page-header"><center>PHOTOS</center></h1> -->
             </div>
 
-<!-- <div mag-thumb="inner">
-  <img src="images/goji.jpg" />
-</div>
-<div mag-zoom="inner">
-  <img src="images/goji_4000.jpg" />
-</div> -->
+
             
 
         <div class="table-row">
             <div class="table-cell-image">
                 <!-- <a class="thumbnail" href="#"> -->
-                    <img class="img-responsive goji" src="images/goji.jpg" alt="Goji">
-                </a>
+                    <img class="img-responsive goji zoom" src="images/goji.jpg" alt="Goji" data-magnify-src="images/goji_4000.jpg">
+
+                
 
             </div>
            <div class="table-cell-text">
@@ -104,12 +105,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
             </div>
 
         </div>  
@@ -126,16 +122,13 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
                 </div>
+
+ <a name="kale"></a>
              <div class="table-cell-image">
                 <!-- <a class="thumbnail" href="#"> -->
-                  <section id="kale">  <img class="img-responsive kale" src="images/kale.jpg" alt="Kale"> </section>
+                   <img class="img-responsive kale zoom" src="images/kale.jpg" alt="Kale" data-magnify-src="images/kale_4000.jpg"> 
                 </a>
             </div>
 
@@ -149,15 +142,18 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <hr>
 <br>
 
+        <a name="quinoa"></a>
         <div class="table-row">
+
+            <div class="table-cell-image">
+        
             
 
-             <div class="table-cell-row">
-                <!-- <a class="thumbnail" href="#"> -->
-                    <img class="img-responsive quinoa" src="images/quinoa.jpg" alt="Quinoa">
+                            <!-- <a class="thumbnail" href="#"> -->
+                    <img class="img-responsive quinoa zoom" src="images/quinoa.jpg" alt="Quinoa" data-magnify-src="images/quinoa_4000.jpg">
                 </a>
             </div>
-            
+           
             <div class="table-cell-text">
            
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -166,15 +162,9 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
 
+            </div>
+    </div>
 
 <hr>
 <br>
@@ -190,17 +180,13 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
             </div>
 
-            <div class="table-cell-row">
+<a name="salad"></a>
+            <div class="table-cell-image">
                 <!-- <a class="thumbnail" href="#"> -->
-                    <img class="img-responsive salad" src="images/salad.jpg" alt="Salad">
+                    <img class="img-responsive salad zoom" src="images/salad.jpg" alt="Salad" data-magnify-src="images/salad_4000.jpg">
                 </a>
             </div>
 </div>
@@ -208,10 +194,11 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <hr>
 <br>
 
+<a name="sushi"></a>
 <div class="table-row">
-             <div class="table-cell-row">
+             <div class="table-cell-image">
                 <!-- <a class="thumbnail" href="#"> -->
-                    <img class="img-responsive sushi" src="images/sushi.jpg" alt="Sushi">
+                    <img class="img-responsive sushi zoom" src="images/sushi.jpg" alt="Sushi" data-magnify-src="images/sushi_4000.jpg">
                 </a>
             </div>
             
@@ -223,12 +210,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
             </div>
 </div>
             <!-- <div class="col-lg-4 col-md-4 col-xs-6 thumb">
@@ -274,11 +256,17 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+   
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/my.js"></script>
+
+    <script>
+$(document).ready(function() {
+  $('.zoom').magnify();
+});
+</script>
 
 </body>
 

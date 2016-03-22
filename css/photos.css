@@ -71,19 +71,33 @@ padding: 2%;
 
 .table-cell-image {
 display: table-cell;
-width: 55%;
+width: 45%;
 padding: 3%;
 }
 
 
-
-/*.red-img {
-  border: 1px solid red;
-}*/
-
 .goji {
-  border: 5px solid blue;
+  box-shadow: 5px 5px 5px #D3D3D3;
 }
+
+.kale {
+  box-shadow: 5px 5px 5px #D3D3D3;
+}
+
+.quinoa {
+  box-shadow: 5px 5px 5px #D3D3D3;
+}
+
+.salad {
+  box-shadow: 5px 5px 5px #D3D3D3;
+}
+
+.sushi {
+  box-shadow: 5px 5px 5px #D3D3D3;
+}
+
+
+
 
 /*.goji-berry:hover {
   height: 50%;
@@ -134,7 +148,7 @@ height:400px;
 .navbar-inverse .navbar-nav > .disabled > a:hover,
 .navbar-inverse .navbar-nav > .disabled > a:focus {
   color: #444;
-  background-color: ##F2F3F5;
+  background-color: #F2F3F5;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {

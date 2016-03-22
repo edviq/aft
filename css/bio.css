@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Abril+Fatface);
-`
+
 
 body {
   background-color: #f7f7f7;
@@ -43,10 +43,6 @@ h1 {
 }
 
 
-
-
-
-
 .navbar-inverse {
   background: white;
   font-family: 'Abril Fatface', cursive;
@@ -55,14 +51,6 @@ h1 {
   letter-spacing: 0.2em;
 
 }
-
-
-/*.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}*/
 
 
 
