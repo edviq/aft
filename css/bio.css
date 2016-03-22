@@ -21,6 +21,14 @@ h1 {
   text-align: left;
 }
 
+.btn {
+  font-family: 'Arimo', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.2em;
+  text-align: left;
+}
+
+
 .submit {
 
  padding-left: 75px;
